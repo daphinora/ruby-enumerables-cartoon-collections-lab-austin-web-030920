@@ -29,14 +29,14 @@ def find_the_cheese(array)
     puts array
 end
 
-def find_the_cheese(array)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each_with_index {|index, var| array[index].include?(cheese_types) }
-end
+# def find_the_cheese(array)
+#   cheese_types = ["cheddar", "gouda", "camembert"]
+#   cheese_types.each_with_index {|index, var| array[index].include?(cheese_types) }
+# end
   
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.find { |x| array.include?(x) } 
+  cheese_types.find { |index| array.include?(index) } 
 end
 
 
