@@ -17,9 +17,8 @@ def long_planeteer_calls(array)
   result = ""
   new_array = array.collect do |index| index.size <=4 end
   puts new_array
-  result = new_array.any? |var| var == false
-  return
-  
+  result = new_array.any? do |var| var == false end
+  return result
 end
 
 def find_the_cheese# code an argument here
