@@ -29,4 +29,3 @@ def find_the_cheese(array)
     end
     puts array
   end
-end
