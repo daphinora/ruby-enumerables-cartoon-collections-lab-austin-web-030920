@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(array)
   new_array = []
   result = ""
-  new_array = 
+  new_array = array.collect do |
   
 end
 
