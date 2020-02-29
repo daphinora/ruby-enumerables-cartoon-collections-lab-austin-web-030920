@@ -8,7 +8,7 @@ end
 def summon_captain_plane(array)
   array = array.collect do |element| element+"!"
  end
-  array = array.map do |element| 
+  array = array.map do |character| 
 end
 
 def long_planeteer_calls# code an argument here
