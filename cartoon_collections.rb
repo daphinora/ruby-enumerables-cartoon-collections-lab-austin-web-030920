@@ -23,7 +23,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each_with_index {|index, var| array[var].include?(index)}
+  cheese_types.each_with_index {|index, var| array[var].include?(cheese_types)}
   if array.any? {|index| cheese_types.include?(index)}
     return true 
     else false 
