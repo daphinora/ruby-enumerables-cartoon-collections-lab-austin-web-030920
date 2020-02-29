@@ -27,5 +27,8 @@ def find_the_cheese(array)
     return true
   end
     puts array
-  cheese_types.each_with_index {|index, var| array[index].include?(cheese_types) }
 end
+
+def find_the_cheese(array)
+  cheese_types.each_with_index {|index, var| array[index].include?(cheese_types) }
+  
