@@ -23,9 +23,8 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheese_types.include?("cheddar")
-    puts "cheddar"
-  end
+  if cheese_types.include? {|index| cheese_types.include?(index)
+    puts cheese_types[index]}
 end
 
 def find_the_cheese(array)
