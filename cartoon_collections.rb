@@ -1,5 +1,15 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+require 'pry'
+def roll_call_dwarves(array)
+ array.each_with_index do |name, index|
+   counter = 0
+   while counter < hash.length do
+   name = hash[counter]
+   puts name 
+     counter += 0
+   end
+ end
+end
+  
 end
 
 def summon_captain_planet# code an argument here
