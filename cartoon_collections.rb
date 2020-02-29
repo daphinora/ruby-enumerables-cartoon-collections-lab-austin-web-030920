@@ -1,13 +1,6 @@
 require 'pry'
 def roll_call_dwarves(array)
- array.each_with_index do |name, index|
-   counter = 0
-   while counter < hash.length do
-   name = hash[counter]
-   puts name 
-     counter += 0
-   end
- end
+ array.each_with_index do |name, index| 
 end
   
 end
