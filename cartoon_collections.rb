@@ -6,7 +6,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_plane(array)
-  array.each do |element|
+  array.collect do |element|
     puts 
 end
 
