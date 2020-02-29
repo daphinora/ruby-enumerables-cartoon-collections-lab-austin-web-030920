@@ -15,7 +15,8 @@ end
 def long_planeteer_calls(array)
   new_array = []
   result = ""
-  new_array = array.collect do |index| index>4
+  new_array = array.collect do |index| index.size <=4 end
+  new_array
   
 end
 
