@@ -18,6 +18,7 @@ def long_planeteer_calls(array)
   new_array = array.collect do |index| index.size <=4 end
   puts new_array
   result = new_array.any? |var| var == false
+  return
   
 end
 
