@@ -13,7 +13,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  words = array.collect do |word| word
+  new_array = []
+  
   
 end
 
