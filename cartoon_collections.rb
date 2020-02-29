@@ -26,6 +26,6 @@ def find_the_cheese(array)
   if array.any? {|index| cheese_types.include?(index)}
     return true 
     else false 
-    end
-    puts array
   end
+    puts array
+end
